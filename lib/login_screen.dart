@@ -97,7 +97,6 @@ class _LoginScreenState extends State<LoginScreen> {
     }
   }
 
-  // Sign in as Admin
   Future<void> _signInAsAdmin() async {
     try {
       await _auth.signInWithEmailAndPassword(
